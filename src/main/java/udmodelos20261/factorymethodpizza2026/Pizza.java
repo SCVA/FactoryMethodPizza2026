@@ -11,18 +11,19 @@ package udmodelos20261.factorymethodpizza2026;
 public abstract class Pizza {
 
     public void prepare() {
-        System.out.println("Preparing pizza...");
+        System.out.println("Preparing pizza");
     }
 
     public void bake() {
-        System.out.println("Baking pizza...");
+        System.out.println("Baking pizza");
     }
 
     public void cut() {
-        System.out.println("Cutting pizza...");
+        System.out.println("Cutting pizza");
     }
 
     public void box() {
-        System.out.println("Boxing pizza...");
+        System.out.println("Boxing pizza");
     }
 }
+
