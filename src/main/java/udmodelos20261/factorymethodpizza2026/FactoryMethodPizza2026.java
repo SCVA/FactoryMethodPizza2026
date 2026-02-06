@@ -16,7 +16,7 @@ public class FactoryMethodPizza2026 {
         Chef chefsito; 
         Scanner input = new Scanner(System.in);
         
-        System.out.println("Seleccione tipo de pizza: (1) Queso, (2) Vegetariana");
+        System.out.println("Seleccione tipo de pizza: \n (1) Queso, (2) Vegetariana");
         int opcion = input.nextInt();
         
         chefsito = switch (opcion) {
